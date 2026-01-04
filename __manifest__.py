@@ -1,0 +1,23 @@
+{
+    'name': 'Gym Management',
+    'version': '1.0',
+    'category': 'Services',
+    'summary': 'Manage Gym Members, Memberships, and Attendance',
+    'description': 'A complete gym management system',
+    'author': 'Your Name',
+    'license': 'LGPL-3',
+    'depends': ['base'],
+    'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'views/membership_views.xml',
+        'views/member_views.xml',
+        'views/subscription_views.xml',
+        'views/attendance_views.xml',
+        'views/payment_views.xml',
+        'views/menu.xml',
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
