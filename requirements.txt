@@ -1,0 +1,13 @@
+wheel
+setuptools
+psutil
+babel
+lxml
+Pillow
+psycopg2-binary
+decorator
+pytz
+Werkzeug
+jinja2
+python-dateutil
+num2words
