@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_gym_root" name="Gym Management" sequence="1"/>
+
+    <menuitem id="menu_gym_operations" name="Operations" parent="menu_gym_root" sequence="10"/>
+    <menuitem id="menu_gym_config" name="Configuration" parent="menu_gym_root" sequence="100"/>
+
+    <menuitem id="menu_gym_member" name="Members" parent="menu_gym_operations" action="action_gym_member" sequence="10"/>
+    <menuitem id="menu_gym_subscription" name="Subscriptions" parent="menu_gym_operations" action="action_gym_subscription" sequence="20"/>
+    <menuitem id="menu_gym_attendance" name="Attendance" parent="menu_gym_operations" action="action_gym_attendance" sequence="30"/>
+    <menuitem id="menu_gym_payment" name="Payments" parent="menu_gym_operations" action="action_gym_payment" sequence="40"/>
+    <menuitem id="menu_gym_membership_config" name="Membership Plans" parent="menu_gym_config" action="action_gym_membership" sequence="10"/>
+</odoo>
